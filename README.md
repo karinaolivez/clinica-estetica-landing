@@ -5,11 +5,9 @@ Site estático (HTML/CSS/JS puro), sem backend, sem custo de servidor. A automa�
 ## O que ainda falta ajustar
 
 1. **Horário de atendimento** — procure `[Horário de atendimento]` em `index.html` (seção Contato).
-2. **Nota e número de avaliações do Google** — o link já está certo (`CLINIC.google.link` em `script.js`, aponta direto para o perfil da clínica no Google Maps). Só falta trocar `rating: "[nota]"` e `totalReviews: "[nº] avaliações"` pelos valores reais que aparecem no Google (ex: `"4.9"` e `"120 avaliações"`).
-3. **Avaliações reais** — troque os textos `[Colar aqui uma avaliação real do Google]` em `index.html` (seção "Avaliações") por avaliações reais copiadas do Google.
-4. **Depoimentos de pacientes fora do Google** — se quiser, adicione depoimentos reais e autorizados por fora.
-5. **Fotos de procedimentos / antes-depois** — não usei fotos de pacientes do Instagram por questão de consentimento. Se quiser incluir, use apenas fotos com autorização explícita da paciente para uso neste site.
-6. Revise a lista de serviços em "Serviços" — foi montada com base nos destaques do Instagram (Pele de Novela, Harmonização, Fios, Em Casa).
+2. **Avaliações reais** — troque os textos `[Colar aqui uma avaliação real do Google]` em `index.html` (seção "Avaliações") por avaliações reais copiadas do Google.
+3. **Depoimentos de pacientes fora do Google** — se quiser, adicione depoimentos reais e autorizados por fora.
+4. **Fotos de procedimentos / antes-depois** — não usei fotos de pacientes do Instagram por questão de consentimento. Se quiser incluir, use apenas fotos com autorização explícita da paciente para uso neste site.
 
 ## Fotos já incluídas (reais, do Instagram @dralaissantiago)
 

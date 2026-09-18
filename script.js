@@ -7,8 +7,8 @@ const CLINIC = {
   // Perfil no Google (Google Maps / Google Meu Negócio) — Laís Santiago Clínica Estética Avançada.
   google: {
     link: "https://www.google.com/maps?cid=4004059238541487019",
-    rating: "[nota]", // <-- troque pela nota real exibida no Google, ex: "4.9"
-    totalReviews: "[nº] avaliações", // <-- troque pelo número real, ex: "120 avaliações"
+    rating: "5,0",
+    totalReviews: "64 avaliações",
   },
 };
 // =================================================================
