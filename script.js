@@ -4,7 +4,7 @@ const CLINIC = {
   waLink: "https://wa.me/5511948720466",
   instagram: "https://instagram.com/dralaissantiago",
 
-  // Perfil no Google (Google Maps / Google Meu Negócio) — Laís Santiago Clínica Estética Avançada.
+  // Perfil no Google (Google Maps / Google Meu Negócio) — Dra. Laís Santiago Clínica Estética Avançada.
   google: {
     link: "https://www.google.com/maps?cid=4004059238541487019",
     rating: "5,0",
