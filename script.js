@@ -62,6 +62,13 @@ function wireContactForm() {
   });
 }
 
+function wireCarousel() {
+  const track = document.querySelector(".ba-grid");
+  if (!track) return;
+  document.querySelector(".ba-prev").addEventListener("click", () => track.scrollBy({ left: -track.clientWidth, behavior: "smooth" }));
+  document.querySelector(".ba-next").addEventListener("click", () => track.scrollBy({ left: track.clientWidth, behavior: "smooth" }));
+}
+
 function wireLightbox() {
   const items = document.querySelectorAll(".ba-item");
   if (!items.length) return;
@@ -91,4 +98,5 @@ function wireLightbox() {
 wireCtaButtons();
 wireContactForm();
 wireLightbox();
+wireCarousel();
 wireGoogleReviews();
