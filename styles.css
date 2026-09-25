@@ -488,7 +488,7 @@ a { color: inherit; text-decoration: none; }
   margin: 0 auto;
 }
 .produtos-fotos .photo { aspect-ratio: 4/5; object-position: center; }
-.fios-fotos .photo { aspect-ratio: 1/1; object-position: center; }
+.fios-fotos .photo { aspect-ratio: 4/5; object-position: center; }
 
 .produto-lista {
   list-style: none;
