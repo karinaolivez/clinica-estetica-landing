@@ -95,10 +95,12 @@ function wireContactForm() {
 }
 
 function wireCarousel() {
-  const track = document.querySelector(".ba-grid");
-  if (!track) return;
-  document.querySelector(".ba-prev").addEventListener("click", () => track.scrollBy({ left: -track.clientWidth, behavior: "smooth" }));
-  document.querySelector(".ba-next").addEventListener("click", () => track.scrollBy({ left: track.clientWidth, behavior: "smooth" }));
+  document.querySelectorAll(".ba-carousel, .insta-carousel").forEach((box) => {
+    const track = box.querySelector(".ba-grid, .insta-track");
+    const step = (dir) => track.scrollBy({ left: dir * track.clientWidth, behavior: "smooth" });
+    box.querySelector(".ba-prev").addEventListener("click", () => step(-1));
+    box.querySelector(".ba-next").addEventListener("click", () => step(1));
+  });
 }
 
 function wireLightbox() {
