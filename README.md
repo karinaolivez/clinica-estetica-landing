@@ -9,6 +9,11 @@ Site estático (HTML/CSS/JS puro), sem backend, sem custo de servidor. A automa�
 3. **Depoimentos de pacientes fora do Google** — se quiser, adicione depoimentos reais e autorizados por fora.
 4. **Instagram** — a seção exibe fotos com link para o perfil. Para mostrar publicações reais, adicione os links das publicações desejadas.
 
+## Medição e domínio próprio
+
+- **Medição:** em `script.js`, preencha `CLINIC.analytics` (`ga4Id` e/ou `metaPixelId`). Vazio = desligado. Ao ativar, cada clique no WhatsApp é registrado. Ao ativar, inclua aviso de cookies (LGPD).
+- **Ao trocar para o domínio próprio** (ex: peledenovela.com.br), atualize a URL em `index.html` (`canonical`, `og:url`, `og:image` e `url`/`image` do JSON-LD), em `sitemap.xml` e em `robots.txt`.
+
 ## Fotos incluídas
 
 - `images/antes-depois-*.jpg` — antes e depois de pacientes do método (fornecidas pela clínica). Confirme que cada paciente autorizou o uso no site.

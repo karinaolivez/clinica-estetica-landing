@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://karinaolivez.github.io/clinica-estetica-landing/sitemap.xml
