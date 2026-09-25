@@ -62,6 +62,33 @@ function wireContactForm() {
   });
 }
 
+function wireLightbox() {
+  const items = document.querySelectorAll(".ba-item");
+  if (!items.length) return;
+
+  const box = document.createElement("div");
+  box.className = "lightbox";
+  box.hidden = true;
+  box.setAttribute("role", "dialog");
+  box.setAttribute("aria-label", "Imagem ampliada");
+  const big = document.createElement("img");
+  box.appendChild(big);
+  document.body.appendChild(box);
+
+  const close = () => { box.hidden = true; };
+  items.forEach((item) => {
+    item.addEventListener("click", () => {
+      const img = item.querySelector("img");
+      big.src = img.src;
+      big.alt = img.alt;
+      box.hidden = false;
+    });
+  });
+  box.addEventListener("click", close);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+}
+
 wireCtaButtons();
 wireContactForm();
+wireLightbox();
 wireGoogleReviews();

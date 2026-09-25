@@ -5,15 +5,17 @@ Site estático (HTML/CSS/JS puro), sem backend, sem custo de servidor. A automa�
 ## O que ainda falta ajustar
 
 1. **Horário de atendimento** — procure `[Horário de atendimento]` em `index.html` (seção Contato).
-2. **Avaliações reais** — troque os textos `[Colar aqui uma avaliação real do Google]` em `index.html` (seção "Avaliações") por avaliações reais copiadas do Google.
+2. **Fios de Novela** — a seção lista shampoo, condicionador e óleo capilar; complemente com as informações que a clínica enviar.
 3. **Depoimentos de pacientes fora do Google** — se quiser, adicione depoimentos reais e autorizados por fora.
-4. **Fotos de procedimentos / antes-depois** — não usei fotos de pacientes do Instagram por questão de consentimento. Se quiser incluir, use apenas fotos com autorização explícita da paciente para uso neste site.
+4. **Instagram** — a seção exibe fotos com link para o perfil. Para mostrar publicações reais, adicione os links das publicações desejadas.
 
-## Fotos já incluídas (reais, do Instagram @dralaissantiago)
+## Fotos incluídas
 
-- `images/dra-lais.jpg` — foto de perfil profissional
-- `images/fachada-clinica.jpg` — fachada da clínica
-- `images/metodo-inovela.jpg` — foto com a linha de cuidados própria "Inovela"
+- `images/antes-depois-*.jpg` — antes e depois de pacientes do método (fornecidas pela clínica). Confirme que cada paciente autorizou o uso no site.
+- `images/dra-*.jpg` — fotos profissionais da Dra. Laís.
+- `images/pele-*.jpg` — produtos Pele de Novela.
+- `images/fios-*.jpg` — produtos Fios de Novela.
+- `images/fachada-clinica.jpg` — fachada da clínica.
 
 ## Como publicar de graça (escolha uma)
 
