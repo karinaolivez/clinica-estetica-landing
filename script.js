@@ -95,8 +95,8 @@ function wireContactForm() {
 }
 
 function wireCarousel() {
-  document.querySelectorAll(".ba-carousel, .insta-carousel").forEach((box) => {
-    const track = box.querySelector(".ba-grid, .insta-track");
+  document.querySelectorAll(".ba-carousel").forEach((box) => {
+    const track = box.querySelector(".ba-grid");
     const step = (dir) => track.scrollBy({ left: dir * track.clientWidth, behavior: "smooth" });
     box.querySelector(".ba-prev").addEventListener("click", () => step(-1));
     box.querySelector(".ba-next").addEventListener("click", () => step(1));

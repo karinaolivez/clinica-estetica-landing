@@ -6,8 +6,7 @@ Site estático (HTML/CSS/JS puro), sem backend, sem custo de servidor. A automa�
 
 1. **Fios de Novela** — a seção lista shampoo, condicionador e óleo capilar; complemente com as informações que a clínica enviar.
 2. **Produtos e antes/depois** — descrições dos produtos e legendas (protocolo e tempo) nas fotos, quando a Dra. Laís fornecer.
-3. **Instagram** — os posts exibidos ficam em `index.html` (seção `#instagram`, tags `iframe`); para trocar, substitua o código da publicação na URL `instagram.com/p/CÓDIGO/embed/`.
-4. **Depoimentos fora do Google** — se quiser, adicione depoimentos reais e autorizados.
+3. **Depoimentos fora do Google** — se quiser, adicione depoimentos reais e autorizados.
 
 ## Medição e domínio próprio
 
